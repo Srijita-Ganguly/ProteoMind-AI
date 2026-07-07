@@ -1,5 +1,7 @@
-# ProteoMind-AI
+<img width="1774" height="887" alt="Thumbnail" src="https://github.com/user-attachments/assets/703145ac-c4df-4b6e-b929-2e499c40afd4" />
 
+# ProteoMind-AI
+Antigravity-based agentic platform for automated interpretation of proteomics-derived gene symbols using multiple databases.
 ## Introduction
 
 Proteomics has become one of the most powerful approaches for understanding disease mechanisms by measuring protein abundance across biological samples. Differentially expressed proteins often provide insight into disease progression, potential biomarkers, and therapeutic targets. However, converting a list of significant proteins into meaningful biological knowledge requires integrating information from multiple biological databases, each providing different aspects of protein function and interaction.
@@ -8,7 +10,7 @@ Researchers commonly need to annotate proteins, identify enriched biological pat
 
 ---
 
-# Problem Statement
+## Problem Statement
 
 Following differential expression analysis, researchers are often left with lists of significantly upregulated and downregulated proteins. Although identifying these proteins is an essential first step, interpreting their biological significance requires integrating information from several independent resources, including:
 
@@ -21,7 +23,7 @@ Performing these analyses manually for dozens or hundreds of proteins is labor-i
 
 ---
 
-# Why Use AI Agents?
+## Why Use AI Agents?
 
 The biological interpretation workflow naturally consists of several independent but connected tasks. Each task has a distinct objective and relies on different scientific knowledge sources. This makes the problem well suited to a multi-agent architecture.
 
@@ -39,7 +41,7 @@ This modular design improves maintainability, reproducibility, and scalability w
 
 ---
 
-# Solution
+## Solution
 
 ProteoMind-AI is a multi-agent workflow that automates the biological interpretation of significant proteomics results.
 
@@ -55,31 +57,17 @@ Rather than replacing established biological databases, ProteoMind-AI orchestrat
 
 ---
 
-# Project Journey
+## Project Journey
 
 The development of ProteoMind-AI followed the typical workflow of a proteomics interpretation study.
 
-1. Differentially expressed proteins were first identified from quantitative proteomics analysis.
-2. The significant proteins were separated into upregulated and downregulated groups.
-3. A modular multi-agent workflow was designed so that each agent focused on one biological analysis task.
-4. Existing scientific database skills available within the Antigravity ecosystem were integrated instead of developing custom database clients.
-5. Each agent generated standardized intermediate outputs, allowing downstream analyses to remain reproducible and independent.
-6. The final workflow produces annotated proteins, enriched pathways, tissue localization information, and protein-protein interaction networks suitable for biological interpretation.
+1. The workflow input are the significant proteins were separated into upregulated and downregulated groups from the differentially expressed proteins were identified from quantitative proteomics analysis.
+2. A modular multi-agent workflow was designed so that each agent focused on one biological analysis task.
+3. Existing scientific database skills available within the Antigravity ecosystem were integrated instead of developing custom database clients.
+4. Each agent generated standardized intermediate outputs, allowing downstream analyses to remain reproducible and independent.
+5. The final workflow produces annotated proteins, enriched pathways, tissue localization information, and protein-protein interaction networks suitable for biological interpretation.
 
-Upregulated Proteins CSV          Downregulated Proteins CSV
-              │                               │
-              └──────────────┬────────────────┘
-                             ▼
-                  UniProt Annotation Agent
-                             │
-                             ▼
-        Reactome + Human Protein Atlas Agent
-                             │
-                             ▼
-                 STRING Protein Interaction Agent
-                             │
-                             ▼
-                  Final Biological Interpretation
+<img width="1536" height="1024" alt="wokflow" src="https://github.com/user-attachments/assets/eb8c7352-dd24-4fa9-a799-430cb5a5cde2" />
 
 ## Features
 
