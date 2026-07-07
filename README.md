@@ -1,4 +1,4 @@
-<img width="1440" height="720" alt="Thumbnail" src="https://github.com/user-attachments/assets/b59da884-fcc3-4fa9-bf25-169727de3de2" />
+<img width="2752" height="1536" alt="image" src="https://github.com/user-attachments/assets/189e246b-ca7d-4192-bd01-06e3954adfc0" />
 
 # ProteoMind-AI
 Antigravity-based agentic platform for automated interpretation of proteomics-derived gene symbols using multiple databases.
