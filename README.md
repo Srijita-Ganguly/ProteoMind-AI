@@ -1,7 +1,7 @@
 <img width="2752" height="1536" alt="image" src="https://github.com/user-attachments/assets/189e246b-ca7d-4192-bd01-06e3954adfc0" />
 
 # ProteoMind-AI
-Antigravity-based agentic platform for automated interpretation of proteomics-derived gene symbols using multiple databases.
+Antigravity-based agentic platform for automated biological information retrieval from multiple databases.
 ## Introduction
 
 Proteomics has become one of the most powerful approaches for understanding disease mechanisms by measuring protein abundance across biological samples. Differentially expressed proteins often provide insight into disease progression, potential biomarkers, and therapeutic targets. However, converting a list of significant proteins into meaningful biological knowledge requires integrating information from multiple biological databases, each providing different aspects of protein function and interaction.
