@@ -161,6 +161,7 @@ Competition page:
 [AI Agents: Intensive Vibe Coding Capstone Project](https://www.kaggle.com/competitions/vibecoding-agents-capstone-project?utm_source=chatgpt.com)
 
 The complete multi-agent workflow, project architecture, and implementation were generated using **Google Antigravity**, guided through iterative user-defined prompts, workflow specifications, and project requirements. This project demonstrates prompt-driven agentic software engineering for constructing a modular bioinformatics pipeline for the biological interpretation of proteomics datasets.
+Debugging and code review were completed with the assistance of OpenAI's ChatGPT.
 
 The workflow integrates publicly available biological knowledge resources, including:
 
