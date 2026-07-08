@@ -9,6 +9,13 @@ Proteomics has become one of the most powerful approaches for understanding dise
 Researchers commonly need to annotate proteins, identify enriched biological pathways, investigate tissue-specific expression, determine subcellular localization, and construct protein-protein interaction (PPI) networks before drawing biological conclusions. These tasks are typically performed using multiple independent tools and manual database queries, making the workflow time-consuming, repetitive, and difficult to reproduce.
 
 ---
+## 🎥 Project Concept Overview
+
+If you'd like a quick introduction to the motivation and high-level workflow, you can watch this 4.50-minute overview.
+
+📺 **YouTube:** [https://youtu.be/YOUR_VIDEO_ID](https://www.youtube.com/watch?v=fxieBMsfmHo)
+
+This overview was generated using Google NotebookLM based on the project documentation. 
 
 ## Problem Statement
 
