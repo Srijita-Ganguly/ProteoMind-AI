@@ -11,7 +11,7 @@ Researchers commonly need to annotate proteins, identify enriched biological pat
 ---
 ## 🎥 Project Concept Overview
 
-If you'd like a quick introduction to the motivation and high-level workflow, you can watch this 4.50-minute overview.
+If you'd like a quick introduction to the motivation you can watch this 4.50-minute overview.
 
 📺 **YouTube:** [https://youtu.be/YOUR_VIDEO_ID](https://www.youtube.com/watch?v=fxieBMsfmHo)
 
@@ -168,7 +168,7 @@ Competition page:
 [AI Agents: Intensive Vibe Coding Capstone Project](https://www.kaggle.com/competitions/vibecoding-agents-capstone-project?utm_source=chatgpt.com)
 
 The complete multi-agent workflow, project architecture, and implementation were generated using **Google Antigravity**, guided through iterative user-defined prompts, workflow specifications, and project requirements. This project demonstrates prompt-driven agentic software engineering for constructing a modular bioinformatics pipeline for the biological interpretation of proteomics datasets.
-Debugging and code review were completed with the assistance of OpenAI's ChatGPT.
+Debugging, code review and workflow image were completed with the assistance of OpenAI's ChatGPT.
 
 The workflow integrates publicly available biological knowledge resources, including:
 
